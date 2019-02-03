@@ -1,0 +1,16 @@
+data sniffed during running fuji line driver utility
+
+normal - 1B 5B 63 4D 30                                     .[cM0
+test -   1B 5B 63 4D 31                                     .[cM1
+ 
+[x] - byte given in list (see screenshot)
+sleep - 1B 5C 3F 53 54 [30]
+dimming - 1B 5C 3F 4C 44 [35]
+international character - 1B 52 [00]
+character table - 1B 74 [00]
+
+
+
+initial display message:
+[off] 1B 5B 63 49 44
+[on] 1B 5B 63 49 45
