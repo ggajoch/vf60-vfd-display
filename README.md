@@ -15,6 +15,8 @@ Display can be used by USB and RS-232.
 In USB mode, it requires custom 32-bit drivers (which eventually creates COM port).
 RS-232 is much easier, described below.
 
+Original docs: http://www.fujitsu.com/us/support/solutions/industry/retail/peripheral-drivers/
+
 # Protocol
 
 9600N1
