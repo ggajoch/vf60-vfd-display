@@ -34,7 +34,7 @@ Basic usage:
 
 Commands were found out by sniffing serial over USB packets, while running Fujitsu Line Driver Unility. [This describes what was found](./docs/fuji/data.txt)
 
-[This PDF](./docs/EjN-ST-A10_LIUST-5X_CustomerDisplay) is for another display, but most of the commands are working just fine
+[This PDF](./docs/EjN-ST-A10_LIUST-5X_CustomerDisplay.pdf) is for another display, but most of the commands are working just fine
 
 
 # Python lib
