@@ -1,7 +1,13 @@
+#!/usr/bin/env python3
+import argparse
 import time
 from vf60.VFD import VFD
 
-vfd = VFD('/dev/ttyUSB0', rtscts=True)
+parser = argparse.ArgumentParser(description='VF60 clock demo app')
+parser.add_argument('port', type=str, help='Serial port to use')
+args = parser.parse_args()
+
+vfd = VFD(args.port, rtscts=True)
 
 vfd.clear_display()
 
